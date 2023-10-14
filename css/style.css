@@ -8,6 +8,11 @@ a {
   text-decoration: none;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 li {
   list-style: none;
 }
@@ -189,8 +194,17 @@ img {
   padding: 120px 0;
 }
 
-.goals-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .goals-list {
@@ -361,14 +375,14 @@ img {
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
-  /* color: #4d5ae5;
+  color: #4d5ae5;
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-align: left; */
+  text-align: left;
 }
 
 .footer-text {
