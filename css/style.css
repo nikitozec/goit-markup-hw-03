@@ -304,11 +304,11 @@ img {
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 1128px;
+  flex-direction: column; */
+  width: 1440px;
   border: 1px;
 }
 
@@ -374,15 +374,15 @@ img {
 
 .footer-link {
   display: inline-block;
-  margin-bottom: 16px;
-  color: #4d5ae5;
-  text-transform: uppercase;
   font-family: Raleway, sans-serif;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-decoration: none;
+  color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .footer-text {
