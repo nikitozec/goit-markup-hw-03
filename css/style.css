@@ -315,7 +315,7 @@ img {
 }
 
 .portfolio-list {
-  width: 1128px;
+  min-width: 1128px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
