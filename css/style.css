@@ -304,14 +304,14 @@ img {
 }
 
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  /* display: flex;
+  border: 1px;
+  padding: 120px 0;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column; */
+  display: flex;
   width: 1440px;
-  border: 1px;
+  height: 732px;
 }
 
 .portfolio-list {
